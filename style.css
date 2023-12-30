@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+}
+
+#back {
+  width: 100%;
+  height: 100vh;
+}
+#top {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+#workingarea {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  max-width: 1920px;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+}
+
+#nav img {
+  height: 80px;
+  align-items: center;
+  gap: 30px;
+}
+
+#nleft,
+#nright {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#nav a {
+  pointer-events: all;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#hero {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#heroleft .elm {
+  position: relative;
+  height: 9vw;
+  overflow: hidden;
+}
+#heroleft .elm h1:nth-child(1) {
+  top: 0;
+}
+#heroleft .elm h1 {
+  top: 100%;
+  left: 0;
+  position: absolute;
+  line-height: 0.9;
+  font-family: "Kajiro";
+  color: #fff;
+  font-weight: 100;
+  font-size: 11vw;
+}
+
+#back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#heroleft {
+  min-width: 50%;
+}
+#heroleft button {
+  pointer-events: all;
+  padding: 0.8vw 3vw;
+  font-size: 3vw;
+  margin-top: 2vw;
+  font-family: "Kajiro";
+}
+#heroright {
+  min-width: 25%;
+  color: white;
+  /* background-color: green; */
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#heroright p {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#heroright #imagediv {
+  width: 100%;
+  height: 170px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-image: url(https://i.postimg.cc/hXZb9KQt/Whats-App-Image-2023-12-30-at-3-24-10-AM.jpg);
+  background-size: cover;
+  background-position: conter;
+}
+#heroright p:nth-child(3) {
+  color: white;
+  margin-bottom: 50px;
+}
